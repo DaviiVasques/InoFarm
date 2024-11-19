@@ -1,0 +1,38 @@
+@model UsuarioModel
+
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+
+<div class="agrupamento">
+    <form asp-action="DadosAcesso" method="post">
+        <!-- Campos ocultos para dados pessoais -->
+        <input type="hidden" asp-for="Nome" />
+        <input type="hidden" asp-for="Sobrenome" />
+        <input type="hidden" asp-for="DataNascimento" />
+        <input type="hidden" asp-for="CPF" />
+        <input type="hidden" asp-for="Telefone" />
+
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="Email" placeholder="Digite seu e-mail" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm-email">Confirmar e-mail</label>
+            <input type="email" id="confirm-email" name="ConfirmEmail" placeholder="Digite novamente seu e-mail"
+                required>
+        </div>
+        <div class="form-group relative">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="Senha" placeholder="Criar uma senha" required>
+        </div>
+        <div class="form-group relative">
+            <label for="confirm-password">Confirmar Senha</label>
+            <input type="password" id="confirm-password" name="ConfirmSenha"
+                placeholder="Digite novamente a nova senha criada" required>
+        </div>
+        
+        <button type="submit" class="btn">Criar Conta</button>
+        <a href="@Url.Action("DadosPessoais")" class="back-link">Voltar para Dados Pessoais</a>
+    </form>
+</div>

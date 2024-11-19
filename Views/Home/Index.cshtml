@@ -1,0 +1,28 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/home.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="buttons">
+            <a href="~/Usuario/Login" class="btn-login">Login</a>
+            <a href="~/Usuario/Cadastro" class="btn-register">Cadastrar-se</a>
+        </div>
+    </div>
+
+    <section class="catalog">
+        <h1>Frutas Frescas</h1>
+        <div class="frutas-lista">
+            @* Renderizar as frutas diretamente do Model, que é uma lista *@
+            @foreach (var fruta in Model)
+            {
+                <div class="fruta-item">
+                    <h2>@fruta.Nome</h2>
+                    <p>Preço: R$@fruta.Preco</p>
+                    <p>@fruta.Descricao</p>
+                    <p>Forma de venda: @fruta.formaVenda</p>
+                </div>
+            }
+        </div>
+    </section>
+</body>
