@@ -1,279 +1,371 @@
 {
   "Files": [
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/projectbundle/InoFarm.bundle.scp.css",
-      "PackagePath": "staticwebassets/InoFarm.bundle.scp.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InoFarm.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InoFarm.bundle.scp.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/catalogo.css",
-      "PackagePath": "staticwebassets/css/catalogo.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\GerenciarProdutos.css",
+      "PackagePath": "staticwebassets\\css\\GerenciarProdutos.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/home.css",
-      "PackagePath": "staticwebassets/css/home.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\HeaderComum.css",
+      "PackagePath": "staticwebassets\\css\\HeaderComum.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/login.css",
-      "PackagePath": "staticwebassets/css/login.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\HeaderGerente\\style.css",
+      "PackagePath": "staticwebassets\\css\\HeaderGerente\\style.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\ListarFrutas.css",
+      "PackagePath": "staticwebassets\\css\\ListarFrutas.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/styles.css",
-      "PackagePath": "staticwebassets/css/styles.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\LoginGerenteCPF.css",
+      "PackagePath": "staticwebassets\\css\\LoginGerenteCPF.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\LoginSenha.css",
+      "PackagePath": "staticwebassets\\css\\LoginSenha.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\QuemSomos.css",
+      "PackagePath": "staticwebassets\\css\\QuemSomos.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\vendas.css",
+      "PackagePath": "staticwebassets\\css\\vendas.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\Ino-Farm.png",
+      "PackagePath": "staticwebassets\\img\\Ino-Farm.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\abacaxi.png",
+      "PackagePath": "staticwebassets\\img\\abacaxi.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\banana.png",
+      "PackagePath": "staticwebassets\\img\\banana.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\barras.png",
+      "PackagePath": "staticwebassets\\img\\barras.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\carrinho.jpg",
+      "PackagePath": "staticwebassets\\img\\carrinho.jpg"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\carrinho.png",
+      "PackagePath": "staticwebassets\\img\\carrinho.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\faceboo.png",
+      "PackagePath": "staticwebassets\\img\\faceboo.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\insta2.jfif",
+      "PackagePath": "staticwebassets\\img\\insta2.jfif"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\kiwi.jfif",
+      "PackagePath": "staticwebassets\\img\\kiwi.jfif"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\laranja.jfif",
+      "PackagePath": "staticwebassets\\img\\laranja.jfif"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\manga.png",
+      "PackagePath": "staticwebassets\\img\\manga.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\maça.png",
+      "PackagePath": "staticwebassets\\img\\maça.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\pera.png",
+      "PackagePath": "staticwebassets\\img\\pera.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\perfil.png",
+      "PackagePath": "staticwebassets\\img\\perfil.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\qrcode.gif",
+      "PackagePath": "staticwebassets\\img\\qrcode.gif"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\twiter.png",
+      "PackagePath": "staticwebassets\\img\\twiter.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\uva.jpeg",
+      "PackagePath": "staticwebassets\\img\\uva.jpeg"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\uva.png",
+      "PackagePath": "staticwebassets\\img\\uva.png"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.InoFarm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InoFarm.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.InoFarm.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InoFarm.props",
       "PackagePath": "build\\InoFarm.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.InoFarm.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InoFarm.props",
       "PackagePath": "buildMultiTargeting\\InoFarm.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.InoFarm.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InoFarm.props",
       "PackagePath": "buildTransitive\\InoFarm.props"
     }
   ],

@@ -1,0 +1,142 @@
+html {
+    height: 100vh;
+    flex: 1;
+}
+
+header {
+    background: linear-gradient(135deg, #4caf50, #8bc34a); /* Gradiente de verdes */
+    color: white;
+    width: 100%;
+    position: static;
+    top: 0;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    display: flex; 
+    align-items: center; 
+    margin-left: 2em; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logCad:hover {
+    transition: color 0.3s;
+    color: greenyellow;
+}
+
+nav ul li p {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-left: 5px;
+}
+
+nav ul li p span {
+    font-size: 0.9em; 
+    color: white;
+    margin-top: -2px; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+    transition: transform 0.3s ease; 
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+}
+
+.carrinho {
+    width: 50px; 
+    height: 50px; 
+    transition: transform 0.3s ease; 
+    margin-right: 0.5em;
+}
+
+.perfil {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    transition: transform 0.3s ease; 
+    background-color: transparent; 
+    object-fit: cover; 
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background: linear-gradient(135deg, #4caf50, #8bc34a); 
+    color: white;
+    position: static;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+        header .container {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .form-group {
+        margin-bottom: 1.2em;
+    }
+
+    .informacoes__texto_geral {
+        padding-bottom: 0.5em;
+    }
+
+    .form-group {
+        padding-bottom: 0.5em;
+    }
+
+    header .logo, 
+    header .perfil,
+    header ul li .quem-somos {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+
+    nav ul li .carrinho .cadastro .pagFrutas {
+        text-align: center;
+        margin: 0 1.5em;
+    }
+}

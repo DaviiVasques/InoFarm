@@ -1,0 +1,119 @@
+@{
+    Layout = "~/Views/Shared/_LayoutGerente.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Gerente</title>
+    <link rel="stylesheet" href="/HeaderGerente/style.css">
+    <link rel="stylesheet" href="/css/Dashboard.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="buttons-container">
+        <div class="container">
+            <div class="container_lista">
+        <!-- Menu -->
+        <div class="menu">
+            <a asp-controller="Gerente" asp-action="Dashboard" class="menu-item">
+                <i class="fas fa-shopping-basket"></i>
+                <p>Dashboard</p>
+            </a>
+            <a asp-controller="Gerente" asp-action="GerenciarProdutos" class="menu-item">
+                <i class="fas fa-box"></i>
+                <p>Produtos</p>
+            </a>
+            <a asp-controller="Gerente" asp-action="EntradaSaida" class="menu-item">
+                <i class="fas fa-building"></i>
+                <p>Registros de Entrada e Saída</p>
+            </a>
+        </div>
+
+            <div class="cards">
+                <div class="card blue">
+                    <h3>Vendas no ano</h3>
+                    <p>R$ @ViewBag.VendasAno</p>
+                    <div class="icon"><i class="fas fa-arrow-up"></i></div>
+                </div>
+                <div class="card green">
+                    <h3>Vendas no mês</h3>
+                    <p>R$ @ViewBag.VendasMes</p>
+                    <div class="icon"><i class="fas fa-arrow-up"></i></div>
+                </div>
+                <div class="card yellow">
+                    <h3>Margem bruta no mês</h3>
+                    <p>R$ @ViewBag.MargemBrutaMes</p>
+                    <div class="icon"><i class="fas fa-arrow-up"></i></div>
+                </div>
+                <div class="card red">
+                    <h3>Despesas no mês</h3>
+                    <p>R$ @ViewBag.DespesasMes</p>
+                    <div class="icon"><i class="fas fa-arrow-down"></i></div>
+                </div>
+            </div>
+
+            <!-- Filtros -->
+            <div class="filter-container">
+                <label for="fruitFilter">Escolha a fruta:</label>
+                <select id="fruitFilter">
+                    <option value="all">Todas</option>
+                    @foreach (var fruta in ViewBag.Frutas)
+                    {
+                        <option value="@fruta">@fruta</option>
+                    }
+                </select>
+
+                <label for="quarterFilter">Escolha o trimestre:</label>
+                <select id="quarterFilter">
+                    <option value="all">Todos</option>
+                    <option value="Q1">1º Trimestre</option>
+                    <option value="Q2">2º Trimestre</option>
+                    <option value="Q3">3º Trimestre</option>
+                    <option value="Q4">4º Trimestre</option>
+                </select>
+            </div>
+
+            <!-- Gráficos lado a lado -->
+            <div class="charts" style="display: flex; justify-content: space-between;">
+                <div class="chart-container" style="width: 48%; padding: 10px;">
+                    <canvas id="salesChart"></canvas>
+                </div>
+                <div class="chart-container" style="width: 48%; padding: 10px;">
+                    <canvas id="sectorChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Os dados dinâmicos podem ser injetados via ViewBag ou JSON
+        const fruitSectorData = @Html.Raw(Json.Serialize(ViewBag.FruitSectorData));
+
+        const ctx = document.getElementById('salesChart').getContext('2d');
+        const salesChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+                datasets: [{
+                    label: 'Vendas',
+                    data: fruitSectorData.mango.Governo,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

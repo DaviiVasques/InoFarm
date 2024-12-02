@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f5f9;
+    color: #333;
+    margin: 0;
+}
+
+/* Cards com cores fixas */
+.buttons-container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.buttons-container .card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 200px;
+    color: white;
+}
+
+.buttons-container .card.blue {
+    background-color: #4dd0e1;
+}
+
+.buttons-container .card.green {
+    background-color: #aed581;
+}
+
+.buttons-container .card.yellow {
+    background-color: #ffeb3b;
+    color: black;
+}
+
+.buttons-container .card.red {
+    background-color: #e57373;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #388e3c, #66bb6a);
+    color: white;
+    font-size: 0.9em;
+}
+
+.filter-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.filter-container label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter-container select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    /* Organizar as seleções de fruta e trimestre em coluna */
+    .filter-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filter-container label,
+    .filter-container select {
+        width: 100%;
+    }
+
+    /* Ajustar cabeçalho com logo e perfil lado a lado */
+    .header-container .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Configurar o menu em uma grade 2x2 no mobile */
+    .buttons-container .menu {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+    .buttons-container .menu .menu-item {
+        width: 100%;
+    }
+
+    /* Cards empilhados e ocupando largura total */
+    .buttons-container .cards {
+        flex-direction: column;
+    }
+
+    /* Gráficos empilhados e ocupando 100% da largura */
+    .charts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart-container {
+        width: 100% !important;
+        padding: 10px 0;
+    }
+}

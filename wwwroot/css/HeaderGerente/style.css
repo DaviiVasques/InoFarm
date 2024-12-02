@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-container header {
+    background: linear-gradient(135deg, #388e3c, #66bb6a);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container .container img.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.header-container .perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttons-container .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.buttons-container .menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.buttons-container .menu .menu-item {
+    width: 180px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container .menu .menu-item:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.buttons-container .menu .menu-item i {
+    font-size: 36px;
+    margin-bottom: 8px;
+    color: #66bb6a;
+}
+
+.buttons-container .menu .menu-item p {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+    margin: 5px 0 0;
+}

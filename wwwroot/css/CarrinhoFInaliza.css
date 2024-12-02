@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f5e9; /* Fundo mais suave */
+    color: #333;
+    min-width: 100vw;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4caf50, #8bc34a); /* Gradiente de verdes */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.icones {
+    display: flex; /* Exibe os ícones em linha */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 15px; /* Espaçamento entre os ícones */
+    margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.icones img {
+    width: 40px; /* Ajuste o tamanho dos ícones */
+    height: 40px; /* Mantém a altura igual à largura para formar um círculo */
+    border-radius: 50%; /* Faz os ícones ficarem circulares */
+    transition: transform 0.3s; /* Transição suave para a transformação */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+}
+
+.icones img:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o ícone ao passar o mouse */
+}
+
+.carrinho {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Transição suave ao alterar a transformação */
+    background-color: transparent; /* Assegura que o fundo é transparente */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    mix-blend-mode: multiply; /* Muda a mistura da imagem */
+}
+
+.perfil {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Transição suave ao alterar a transformação */
+    background-color: transparent; /* Assegura que o fundo é transparente */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    margin-right: 1em;
+}
+
+.container__cards {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    max-width: 100vh;
+    margin: 2em auto auto auto;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 25em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+}
+
+.header, .item {
+    display: flex;
+    justify-content: space-between; /* Espaça os elementos em linha */
+    margin-bottom: 10px; /* Espaço entre as linhas */
+}
+
+.header p {
+    font-weight: bold; /* Destaca o cabeçalho */
+}
+
+.item p {
+    margin: 0; /* Remove margens padrão dos parágrafos */
+    width: 100px; /* Define uma largura fixa para os itens, se necessário */
+}
+
+.card_entrega p {
+    margin: 0.9em;
+}
+
+.total-info {
+    margin-top: 20px; /* Espaço acima do total */
+    border-top: 1px solid #ddd; /* Linha separadora */
+    padding-top: 10px; /* Espaço acima do texto */
+}
+
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+button {
+    background-color: #4caf50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde mais escuro */
+}
+
+.card-info, .pix-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #4caf50; /* Verde */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.qrcode {
+    background-color: transparent; /* Assegura que o fundo é transparente */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    mix-blend-mode: multiply; /* Muda a mistura da imagem */
+    max-width: 300px;
+}
+.barcode {
+    background-color: transparent; /* Assegura que o fundo é transparente */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    mix-blend-mode: multiply; /* Muda a mistura da imagem */
+}
+.product input[type="checkbox"] {
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+    margin-right: 10px; /* Espaço entre o checkbox e a imagem */
+}
+
+.product input[type="button "] {
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+    margin-right: 10px; /* Espaço entre o checkbox e a imagem */
+}
+
+.product input[type="number"] {
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+    margin-right: 10px; /* Espaço entre o checkbox e a imagem */
+}
+
+.purchase-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 25em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex; /* Centraliza o card na página */
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+}
+
+.purchase-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.purchase-form label {
+    display: block; /* Exibe cada label em uma nova linha */
+    margin: 10px 0 5px; /* Espaçamento vertical */
+}
+
+.purchase-form input[type="text"],
+.purchase-form input[type="radio"] {
+    width: calc(100% - 22px); /* Preenche a largura disponível, menos as bordas */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.purchase-form input[type="radio"] {
+    width: auto; /* Mantém o tamanho padrão dos botões de rádio */
+}
+
+.purchase-form .card-info,
+.purchase-form .boleto-info,
+.purchase-form .pix-info {
+    margin-top: 20px; /* Espaço acima das seções */
+}
+
+.purchase-form button {
+    background-color: #28a745; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.purchase-form button:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
+}
+
+.product-image{
+    width: 15px; /* Diminuindo a largura */
+    height: auto; /* Mantém a proporção */
+    margin-right: 25px; /* Espaçamento à direita */
+    background-color: transparent; /* Remove fundo branco, se necessário */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    margin-left: -10px; /* Ajusta a posição para a esquerda */
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .boleto-info h4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boleto-info img {
+        max-width: 20em;
+        margin-top: 1em;
+    }
+
+    .pix-info {
+        max-width: 17em;
+    }
+    
+    .pix-info h4 {
+        text-align: center;
+    }
+
+    .qrcode {
+        margin: 1em auto;
+        padding-right: 5em;
+        max-width: 20em;
+    }
+
+    .container__cards {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .form-group {
+        margin-bottom: 1.2em;
+    }
+
+    .informacoes__texto_geral {
+        padding-bottom: 0.5em;
+    }
+
+    .form-group {
+        padding-bottom: 0.5em;
+    }
+
+    header .logo, 
+    header .perfil,
+    header .quem-somos {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 1em;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin-left: 1em;
+    }
+
+    nav a {
+        font-family: 1em;
+    }
+
+    .purchase-form {
+        max-width: 80%;
+        margin: 0 auto 2em;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+    }
+}
+
+

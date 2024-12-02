@@ -16,7 +16,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var frutas = _context.Frutas.ToList(); // Obtenha a lista de frutas do banco de dados
+        var frutas = _context.Frutas.Take(5); // Obtenha a lista de frutas do banco de dados
         return View(frutas);
+    }
+
+    public IActionResult QuemSomos()
+    {
+        return View();
     }
 }

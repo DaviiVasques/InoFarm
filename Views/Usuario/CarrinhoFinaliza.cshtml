@@ -1,0 +1,39 @@
+@model dynamic
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="/css/CarrinhoFinaliza.css" />
+</head>
+<body>
+    <h1>Finalizar Compra</h1>
+
+    <div class="resumo">
+        <h2>Resumo do Carrinho</h2>
+        <ul>
+            @foreach (var item in Model.Itens)
+            {
+                <li>
+                    <span>@item.Nome</span>
+                    <span>@item.Quantidade x R$ @item.Preco.ToString("F2")</span>
+                    <span>Total: R$ @item.TotalItem.ToString("F2")</span>
+                </li>
+            }
+        </ul>
+        <p>Total Geral: <strong>R$ @Model.Total.ToString("F2")</strong></p>
+    </div>
+
+    <form asp-action="ProcessarPagamento" method="post">
+        <label for="formaPagamento">Forma de Pagamento:</label>
+        <select id="formaPagamento" name="formaPagamento" required>
+            <option value="credito">Cartão de Crédito</option>
+            <option value="debito">Cartão de Débito</option>
+            <option value="pix">Pix</option>
+        </select>
+        <button type="submit">Finalizar Compra</button>
+    </form>
+</body>
+</html>

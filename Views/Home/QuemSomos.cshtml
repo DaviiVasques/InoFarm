@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INO FARM - Quem Somos</title>
+    <link rel="stylesheet" href="~/css/quem-somos.css">
+    <link rel="stylesheet" href="/HeaderComum/style.css">
+</head>
+
+<body>
+
+<div id="header-container" style="width: 100%"></div>
+    <script>
+        fetch("./HeaderComum").then(res => res.text()).then(data => { document.getElementById('header-container').innerHTML = data })
+    </script>
+
+    <main class="container">
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <p>A INO FARM é uma fazenda urbana dedicada à produção sustentável de alimentos frescos e saudáveis. Com uma
+                abordagem inovadora e consciente, buscamos conectar as pessoas à natureza e promover uma alimentação
+                saudável.</p>
+        </section>
+
+        <section id="nossos-valores">
+            <h2>Nossos Valores</h2>
+            <div class="valores">
+                <div class="valor">
+                    <h3>Sustentabilidade</h3>
+                    <p>Comprometemo-nos com práticas que respeitam o meio ambiente.</p>
+                </div>
+                <div class="valor">
+                    <h3>Qualidade</h3>
+                    <p>Produzimos alimentos frescos e de alta qualidade.</p>
+                </div>
+                <div class="valor">
+                    <h3>Comunidade</h3>
+                    <p>Valorizamos a colaboração e o apoio à comunidade local.</p>
+                </div>
+                <div class="valor">
+                    <h3>Educação</h3>
+                    <p>Promovemos a educação sobre agricultura sustentável.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato conosco pelo e-mail: <a href="mailto:contato@inofarm.com" class="contato_email">contato@inofarm.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 INO FARM. Todos os direitos reservados.</p>
+        <div class="icones">
+            <img src="img/faceboo.png" alt="Facebook">
+            <img src="img/twiter.png" alt="Twitter">
+            <img src="img/insta2.jfif" alt="Instagram">
+        </div>
+
+    </footer>
+</body>
+
+</html>

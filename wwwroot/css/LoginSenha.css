@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5e9; /* Fundo mais suave */
+    color: #333;
+}
+
+header {
+    position: fixed;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4caf50, #8bc34a); /* Gradiente de verdes */
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.icones {
+    display: flex; /* Exibe os ícones em linha */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 15px; /* Espaçamento entre os ícones */
+    margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.icones img {
+    width: 40px; /* Ajuste o tamanho dos ícones */
+    height: 40px; /* Mantém a altura igual à largura para formar um círculo */
+    border-radius: 50%; /* Faz os ícones ficarem circulares */
+    transition: transform 0.3s; /* Transição suave para a transformação */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+}
+
+.icones img:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o ícone ao passar o mouse */
+}
+
+
+.carrinho {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Transição suave ao alterar a transformação */
+    background-color: transparent; /* Assegura que o fundo é transparente */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    mix-blend-mode: multiply; /* Muda a mistura da imagem */
+}
+
+.perfil {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Transição suave ao alterar a transformação */
+    background-color: transparent; /* Assegura que o fundo é transparente */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    margin-right: 0.8em;
+}
+
+.informacoes {
+    padding: 0em 0.8em;
+    font-size: 1.3em;
+}
+
+.informacoes__texto {
+    font-size: 0.6em;
+}
+
+.informacoes__texto_geral {
+    padding-bottom: 1.2em;
+}
+
+.agrupamento {
+    background-color: #fff;
+    padding: 3.1em 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    transition: all 0.3s ease;
+}
+
+.agrupamento__textos {
+    padding: 2em 0em;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+
+.form-group {
+    margin-bottom: 2.8em;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border 0.2s ease;
+}
+
+.form-group input:focus {
+    border-color:#4caf50;
+    outline: none;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #5ee429;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #008000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para mobile */
+
+    header .container {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .form-group {
+        margin-bottom: 1.2em;
+    }
+
+    .informacoes__texto_geral {
+        padding-bottom: 0.5em;
+    }
+
+    .form-group {
+        padding-bottom: 0.5em;
+    }
+
+    header .logo, 
+    header .perfil,
+    header .quem-somos {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 1em;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin-left: 1em;
+    }
+
+    nav a {
+        font-family: 1em;
+    }
+
+    .cadastro {
+        padding-right: 1em;
+    }
+
+    .agrupamento {
+        max-width: 80%;
+        padding: 2em 1.5em;
+    }
+}
+

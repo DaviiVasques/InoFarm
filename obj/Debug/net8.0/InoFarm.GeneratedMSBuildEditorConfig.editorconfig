@@ -9,47 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InoFarm
 build_property.RootNamespace = InoFarm
-build_property.ProjectDir = /home/davi/Área de Trabalho/InoFarm/
+build_property.ProjectDir = C:\Users\yasmi\OneDrive\Área de Trabalho\InoFarm\InoFarm\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/davi/Área de Trabalho/InoFarm
+build_property.MSBuildProjectDirectory = C:\Users\yasmi\OneDrive\Área de Trabalho\InoFarm\InoFarm
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Frutas/ListarFrutas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJ1dGFzXExpc3RhckZydXRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Gerente/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW50ZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Gerente/EntradaSaida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW50ZVxFbnRyYWRhU2FpZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Usuario/DadosAcesso.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EYWRvc0FjZXNzby5jc2h0bWw=
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Gerente/GerenciarProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW50ZVxHZXJlbmNpYXJQcm9kdXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Usuario/DadosPessoais.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EYWRvc1Blc3NvYWlzLmNzaHRtbA==
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Gerente/LoginCPF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW50ZVxMb2dpbkNQRi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Usuario/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9Mb2dpbi5jc2h0bWw=
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Gerente/LoginSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW50ZVxMb2dpblNlbmhhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Home/QuemSomos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVtU29tb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/davi/Área de Trabalho/InoFarm/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-7b780vnxbj
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Shared/LayoutGerente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dEdlcmVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Usuario/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Usuario/CadastroSegundaParte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryb1NlZ3VuZGFQYXJ0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Usuario/CarrinhoFinaliza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYXJyaW5ob0ZpbmFsaXphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasmi/OneDrive/Área de Trabalho/InoFarm/InoFarm/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hoy2zkk9qu

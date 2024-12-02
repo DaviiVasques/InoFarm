@@ -1,0 +1,113 @@
+@model IEnumerable<InoFarm.Models.EntradaSaidaModel>
+@{
+    Layout = "~/Views/Shared/_LayoutGerente.cshtml";
+}
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Entrada e Saída</title>
+    <link rel="stylesheet" href="~/css/EntradaSaida.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+
+<div class="buttons-container">
+    <div class="container_lista">
+        <div class="menu">
+            <a asp-controller="Gerente" asp-action="Dashboard" class="menu-item">
+                <i class="fas fa-shopping-basket"></i>
+                <p>Dashboard</p>
+            </a>
+
+            <a asp-controller="Gerente" asp-action="GerenciarProdutos" class="menu-item">
+                <i class="fas fa-box"></i>
+                <p>Produtos</p>
+            </a>
+
+            <a asp-controller="Gerente" asp-action="EntradaSaida" class="menu-item">
+                <i class="fas fa-building"></i>
+                <p>Registros de Entrada e Saída</p>
+            </a>
+        </div>
+
+        <h1>Registro de Entrada e Saída</h1>
+        <div class="container_dados">
+            <div class="filtros">
+                <input
+                    type="text"
+                    class="caixa-pesquisa"
+                    placeholder="Pesquise por ID, Nome ou Data..."
+                />
+                <button class="botao-filtro" onclick="filtrar('fornecimento')">Filtro Fornecimento</button>
+                <button class="botao-filtro" onclick="filtrar('venda')">Filtro Venda</button>
+                <button class="botao-filtro" onclick="filtrar('devolução')">Filtro Devoluções</button>
+                <button class="botao-filtro" onclick="mostrarTodos()">Mostrar Todos</button>
+            </div>
+
+            <div class="elementos-produtos">
+                <div class="produto cabeçalho">
+                    <div class="informacoes">
+                        <p>ID</p>
+                        <p>Quem fez</p>
+                        <p>Ação</p>
+                        <p>Data</p>
+                        <p>Detalhes</p>
+                        <p>Forma de pagamento</p>
+                        <p>Valor</p>
+                    </div>
+                </div>
+
+                @foreach (var registro in Model)
+                {
+                    <div class="produtos" data-acao="@registro.Acao.ToLower()">
+                        <div class="informacoes">
+                            <p>@registro.Id</p>
+                            <p>@registro.Responsavel</p>
+                            <p>@registro.Acao</p>
+                            <p>@registro.Data.ToString("dd/MM/yyyy")</p>
+                            <p>@registro.Detalhes</p>
+                            <p>@registro.FormaPagamento</p>
+                            <p>R$ @registro.Valor.ToString("F2")</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function filtrar(acao) {
+        const produtos = document.querySelectorAll(".produtos");
+        produtos.forEach((produto) => {
+            if (produto.getAttribute("data-acao") === acao) {
+                produto.style.display = "flex"; // Mostra o produto se o filtro corresponder
+            } else {
+                produto.style.display = "none"; // Oculta o produto se não corresponder
+            }
+        });
+    }
+
+    function mostrarTodos() {
+        const produtos = document.querySelectorAll(".produtos");
+        produtos.forEach((produto) => {
+            produto.style.display = "flex"; // Mostra todos os produtos
+        });
+    }
+
+    document.querySelector(".caixa-pesquisa").addEventListener("input", function () {
+        const valor = this.value.toLowerCase();
+        const produtos = document.querySelectorAll(".produtos");
+        produtos.forEach((produto) => {
+            const id = produto.children[0].textContent.toLowerCase();
+            const nome = produto.children[1].textContent.toLowerCase();
+            const data = produto.children[3].textContent.toLowerCase();
+            if (id.includes(valor) || nome.includes(valor) || data.includes(valor)) {
+                produto.style.display = "flex"; // Mostra se o valor corresponder
+            } else {
+                produto.style.display = "none"; // Oculta se não corresponder
+            }
+        });
+    });
+</script>

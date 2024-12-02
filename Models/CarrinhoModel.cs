@@ -8,11 +8,16 @@ namespace InoFarm.Models
 {
     public class CarrinhoModel
     {
+        
         [Key]
         public int CarrinhoId { get; set; }
         public int IdUsuario { get; set; }
         public DateTime DataCriacao { get; set; }
+        public DateTime DataFinalização { get; set; }
         public UsuarioModel Usuario { get; set; }
         public ICollection<CarrinhoItemModel> Itens { get; set; }
+        public bool Finalizado { get; set; }
+        public string FormaPagamento;
+
     }
 }

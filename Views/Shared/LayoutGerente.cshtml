@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Gerente</title>
+    <link rel="stylesheet" href="/HeaderGerente/style.css"> <!-- Estilo exclusivo do header do gerente -->
+    <link rel="stylesheet" href="/css/style.css"> <!-- Outros estilos gerais -->
+</head>
+<body>
+    <!-- Header exclusivo do gerente -->
+    <header>
+        <div class="container">
+            <img src="/img/Ino-Farm.png" alt="Logo da INO FARM" class="logo" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#perfil">
+                            <img src="/img/perfil.png" alt="perfil" class="perfil" />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main role="main" class="container">
+        @RenderBody() <!-- Renderiza o conteúdo de cada página -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 INO FARM. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

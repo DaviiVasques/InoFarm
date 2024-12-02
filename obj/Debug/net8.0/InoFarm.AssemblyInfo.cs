@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InoFarm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c907d23579243f834e60dc3fa5b39ce92de9942")]
 [assembly: System.Reflection.AssemblyProductAttribute("InoFarm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InoFarm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

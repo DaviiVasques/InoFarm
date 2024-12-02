@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ROhZsaqnWSPYT+9O7OFns6B7KP5wZ94c6Q5A6BKludU=",
+  "Hash": "gBl56o9xgxHXY52fuZVPcKFe+iSrkzeFr47qyTbiwvg=",
   "Source": "InoFarm",
   "BasePath": "_content/InoFarm",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "InoFarm/wwwroot",
+      "Name": "InoFarm\\wwwroot",
       "Source": "InoFarm",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/bundle/InoFarm.styles.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InoFarm.styles.css",
       "SourceId": "InoFarm",
       "SourceType": "Computed",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "InoFarm.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/bundle/InoFarm.styles.css"
+      "OriginalItemSpec": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\InoFarm.styles.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/projectbundle/InoFarm.bundle.scp.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InoFarm.bundle.scp.css",
       "SourceId": "InoFarm",
       "SourceType": "Computed",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "InoFarm.bundle.scp.css",
       "AssetKind": "All",
@@ -52,15 +52,15 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/davi/Área de Trabalho/InoFarm/obj/Debug/net8.0/scopedcss/projectbundle/InoFarm.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InoFarm.bundle.scp.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/catalogo.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\GerenciarProdutos.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
-      "RelativePath": "css/catalogo.css",
+      "RelativePath": "css/GerenciarProdutos.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/catalogo.css"
+      "OriginalItemSpec": "wwwroot\\css\\GerenciarProdutos.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/home.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\HeaderComum.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
-      "RelativePath": "css/home.css",
+      "RelativePath": "css/HeaderComum.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/home.css"
+      "OriginalItemSpec": "wwwroot\\css\\HeaderComum.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/login.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\HeaderGerente\\style.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
-      "RelativePath": "css/login.css",
+      "RelativePath": "css/HeaderGerente/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/login.css"
+      "OriginalItemSpec": "wwwroot\\css\\HeaderGerente\\style.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\ListarFrutas.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/ListarFrutas.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,13 +128,70 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\ListarFrutas.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/css/styles.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\LoginGerenteCPF.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "css/LoginGerenteCPF.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginGerenteCPF.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\LoginSenha.css",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "css/LoginSenha.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginSenha.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\QuemSomos.css",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "css/QuemSomos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\QuemSomos.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\styles.css",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -147,13 +204,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/styles.css"
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\css\\vendas.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "css/vendas.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\vendas.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\favicon.ico",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -166,13 +242,374 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/js/site.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\abacaxi.png",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/abacaxi.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\abacaxi.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\banana.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/banana.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\banana.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\barras.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/barras.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\barras.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\carrinho.jpg",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/carrinho.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\carrinho.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\carrinho.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/carrinho.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\carrinho.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\faceboo.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/faceboo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\faceboo.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\Ino-Farm.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/Ino-Farm.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Ino-Farm.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\insta2.jfif",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/insta2.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\insta2.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\kiwi.jfif",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/kiwi.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\kiwi.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\laranja.jfif",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/laranja.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\laranja.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\maça.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/maça.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\maça.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\manga.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/manga.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\manga.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\pera.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/pera.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pera.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\perfil.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/perfil.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\perfil.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\qrcode.gif",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/qrcode.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\qrcode.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\Thumbs.db",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/Thumbs.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\twiter.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/twiter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\twiter.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\uva.jpeg",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/uva.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\uva.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\img\\uva.png",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
+      "BasePath": "_content/InoFarm",
+      "RelativePath": "img/uva.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\uva.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\js\\site.js",
+      "SourceId": "InoFarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -185,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -204,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -223,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -242,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -261,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -280,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -299,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -318,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -356,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -375,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -394,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -413,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -432,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -451,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -470,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -489,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -508,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -527,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -546,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -565,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -584,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -603,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -622,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -641,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -660,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -679,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -698,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -717,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -736,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -755,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -774,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -793,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -812,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -831,13 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -850,13 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -869,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -888,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -907,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -926,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -945,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -964,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -983,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1002,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1021,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1040,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1059,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1078,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1097,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1116,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1135,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1154,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1173,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1192,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1211,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1230,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1249,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/home/davi/Área de Trabalho/InoFarm/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "InoFarm",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/davi/Área de Trabalho/InoFarm/wwwroot/",
+      "ContentRoot": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\wwwroot\\",
       "BasePath": "_content/InoFarm",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1268,7 +1705,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/davi/Área de Trabalho/InoFarm/InoFarm.csproj": {}
+    "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\InoFarm.csproj": {}
   },
   "projects": {
-    "/home/davi/Área de Trabalho/InoFarm/InoFarm.csproj": {
+    "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\InoFarm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/davi/Área de Trabalho/InoFarm/InoFarm.csproj",
+        "projectUniqueName": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\InoFarm.csproj",
         "projectName": "InoFarm",
-        "projectPath": "/home/davi/Área de Trabalho/InoFarm/InoFarm.csproj",
-        "packagesPath": "/home/davi/.nuget/packages/",
-        "outputPath": "/home/davi/Área de Trabalho/InoFarm/obj/",
+        "projectPath": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\InoFarm.csproj",
+        "packagesPath": "C:\\Users\\yasmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasmi\\OneDrive\\Área de Trabalho\\InoFarm\\InoFarm\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/davi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\yasmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,12 +39,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -78,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

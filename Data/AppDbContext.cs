@@ -14,6 +14,7 @@ public class AppDbContext : DbContext
     public DbSet<CarrinhoModel> Carrinhos { get; set; }
     public DbSet<CarrinhoItemModel> CarrinhoItens { get; set; }
     public DbSet<GerenteModel> Gerentes { get; set; }
+    public DbSet<RegistroVendaModels> EntradaSaida { get; set; }
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

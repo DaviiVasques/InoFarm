@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Pacifico&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  flex: 1;
+}
+
+header {
+  background: linear-gradient(
+    135deg,
+    #4caf50,
+    #8bc34a
+  ); /* Gradiente de verdes */
+  color: white;
+  width: 100%;
+  position: static;
+  top: 0;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logCad:hover {
+  transition: color 0.3s;
+  color: greenyellow;
+}
+
+nav ul li p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  color: white;
+}
+
+nav ul li p span {
+  font-size: 0.9em;
+  color: white;
+  margin-top: -2px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.quantity-control button {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.carrinho {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+  margin-right: 0.5em;
+}
+
+.perfil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  background-color: transparent;
+  object-fit: cover;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e9f5e9; /* Fundo mais suave */
+  color: #333;
+}
+
+.cart-button {
+  background: #ffffff;
+  color: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1em;
+  transition: background 0.3s, color 0.3s;
+}
+
+.cart-button:hover {
+  background: #f0f0f0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Garante 4 cards por linha */
+  padding: 2em;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px; /* Ajuste a altura conforme necessário */
+  object-fit: contain; /* Garante que a imagem mantenha sua proporção */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0; /* Fundo para preencher os espaços vazios (opcional) */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+div p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.buy-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+.buy-button:hover {
+  background: #388e3c; /* Verde mais escuro */
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e9f5e9; /* Fundo mais suave */
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    #4caf50,
+    #8bc34a
+  ); /* Gradiente de verdes */
+  color: white;
+  position: absolute;
+  bottom: 100;
+  width: 100%;
+}
+
+.icones {
+  display: flex; /* Exibe os ícones em linha */
+  justify-content: center; /* Centraliza os ícones */
+  gap: 15px; /* Espaçamento entre os ícones */
+  margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.icones img {
+  width: 40px; /* Ajuste o tamanho dos ícones */
+  height: 40px; /* Mantém a altura igual à largura para formar um círculo */
+  border-radius: 50%; /* Faz os ícones ficarem circulares */
+  transition: transform 0.3s; /* Transição suave para a transformação */
+  object-fit: cover; /* Garante que a imagem preencha o círculo */
+}
+
+.icones img:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente o ícone ao passar o mouse */
+}
+
+.quantity-input {
+  width: 6em;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 2px solid #4caf50; /* Adiciona a borda verde */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cart-item img.cart-item-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-item h3 {
+  font-size: 16px;
+  margin: 0 10px 0 0;
+}
+
+.cart-item .total-price {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.cart-item .quantity-display {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.cart-item .remove-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.cart-item .remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.preco-carrinho {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  header .container {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .form-group {
+    margin-bottom: 1.2em;
+  }
+
+  .informacoes__texto_geral {
+    padding-bottom: 0.5em;
+  }
+
+  .form-group {
+    padding-bottom: 0.5em;
+  }
+
+  header .logo,
+  header .perfil,
+  header ul li .quem-somos {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 100%;
+  }
+
+  nav ul li .carrinho .cadastro .pagFrutas {
+    text-align: center;
+    margin: 0 1.5em;
+    max-width: 100%;
+  }
+
+  nav ul li p {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Garante que a caixa ocupe toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  div h2 {
+    font-size: 1em;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%; /* Ajuste conforme necessário */
+    padding: 0;
+  }
+
+  .card {
+    padding: 0.5em; /* Reduz o padding dos cards */
+    margin: 0.5em auto; /* Reduz a margem dos cards */
+    width: 88%;
+  }
+
+  .card img {
+    height: 80px; /* Reduz a altura das imagens */
+  }
+
+  .cadastro {
+    padding-right: 1em;
+    max-width: 100%;
+  }
+}

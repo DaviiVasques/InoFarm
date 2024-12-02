@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cabeçalho {
+    color: white;
+    font-weight: bold;
+    background-color: #4caf50;
+  }
+  
+  .container_lista {
+    max-width: 2000em;
+  }
+  
+  .buttons-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .buttons-container .menu {
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 30px 0;
+  }
+  
+  .buttons-container .menu .menu-item {
+    width: 180px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttons-container .menu .menu-item:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .buttons-container .menu .menu-item i {
+    font-size: 36px;
+    margin-bottom: 8px;
+    color: #66bb6a;
+  }
+  
+  .buttons-container .menu .menu-item p {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+    margin: 5px 0 0;
+  }
+  
+  .container {
+    width: 90%; /* Largura da div principal */
+    max-width: 1200px; /* Largura máxima para dispositivos grandes */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+  
+  .produtos {
+    display: flex; /* Alinha a imagem e as informações em linha */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .produtos img {
+    height: 50px; /* Ajuste a altura da imagem */
+    width: auto; /* Largura automática para manter a proporção */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .informacoes {
+    display: flex; /* Alinha os textos e os botões em linha */
+    flex-grow: 1; /* Permite que as informações ocupem o espaço disponível */
+    align-items: center; /* Alinha verticalmente ao centro */
+  }
+  
+  .informacoes h2,
+  .informacoes p {
+    margin: 0 2px; /* Espaço entre os elementos de texto */
+  }
+  
+  .botao {
+    margin-left: 10px; /* Espaço entre os textos e os botões */
+    padding: 8px 12px; /* Ajuste do espaçamento interno do botão */
+    background-color: #4caf50; /* Cor de fundo do botão de editar */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 3px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 14px; /* Tamanho da fonte do botão */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  }
+  
+  .botao:hover {
+    background-color: #45a049; /* Cor do botão de editar ao passar o mouse */
+  }
+  
+  .excluir {
+    background-color: #f44336; /* Cor de fundo do botão de excluir */
+  }
+  
+  .excluir:hover {
+    background-color: #d32f2f; /* Cor do botão de excluir ao passar o mouse */
+  }
+  
+  @media (max-width: 980px) {
+    .buttons-container .menu {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1em;
+      justify-items: center; /* Centraliza os itens na grade */
+    }
+  
+    .filtros {
+      justify-content: center;
+    }
+  
+    .header-container .container {
+      flex-direction: row;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-bottom: 20px; /* Ajuste de padding para permitir rolagem */
+      flex-wrap: nowrap; /* Não permite que quebrem para a linha seguinte */
+      overflow-x: auto; /* Habilita rolagem horizontal */
+    }
+  
+    .buttons-container .menu .menu-item {
+      width: 75%;
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .produtos {
+      min-width: 2em;
+    }
+  
+    .caixa-pesquisa {
+      display: none;
+    }
+    .cabeçalho {
+      background-color: #4caf50;
+    }
+  
+    p {
+      font-size: 10px;
+    }
+  
+    h1 {
+      font-size: 50px;
+    }
+  }
+  

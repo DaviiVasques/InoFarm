@@ -1,0 +1,310 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/ListaFrutas.css" />
+}
+
+<header>
+    <div class="container">
+        <img src="@Url.Content("~/img/Ino-Farm.png")" alt="Logo da INO FARM" class="logo" />
+        <nav>
+            <ul>
+                <li>
+                    <a class="pagFrutas" href="@Url.Action("Index", "Carrinho")">Frutas</a>
+                </li>
+                <li>
+                    <a class="quem-somos" href="@Url.Action("QuemSomos", "Home")">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#perfil">
+                        <img src="@Url.Content("~/img/perfil.png")" alt="perfil" class="perfil" />
+                    </a>
+                    <p class="cadastro">
+                        <a class="logCad" href="@Url.Action("Login", "Account")">Entre</a> ou
+                        <a class="logCad" href="@Url.Action("Cadastro", "Account")">Cadastre-se</a>
+                        <span> para ver seus pedidos</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="@Url.Content("~/img/carrinho.png")" alt="carrinho" class="carrinho" id="cart-button" />
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div id="message-container"></div>
+
+<div id="cart-modal" class="hidden">
+    <button id="close-modal" style="float: right">&times;</button>
+    <h2 class="mensagem-carrinho">Seu Carrinho</h2>
+    <div id="itensCarrinho"></div>
+    <div class="modal-footer">
+        <p class="preco-carrinho">
+            Total: R$ <span id="totalCarrinho">0,00</span>
+        </p>
+        <button id="next-page-button" class="next-page-button" onclick="irParaPagamento()">
+            Finalizar Compra
+        </button>
+    </div>
+</div>
+
+<main>
+    <div class="card-container">
+        @foreach (var fruta in Model)
+        {
+            <div class="card">
+                <img src="@Url.Content($"~/img/{fruta.Nome.ToLower()}.png")" alt="@fruta.Nome" />
+                <h2>@fruta.Nome Kg</h2>
+                <p id="valor" class="total-price" data-unit-price="@fruta.Preco">R$ @fruta.Preco.ToString("F2")</p>
+                <div class="quantity-control">
+                    <button class="decrement">-</button>
+                    <button class="increment">+</button>
+                    <input type="number" min="1" max="100" value="1" class="quantity-input" />
+                </div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        }
+    </div>
+</main>
+
+<script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+        let total = 0;
+
+        function adicionarAoCarrinho(nomeProduto, preco, imagem, quantidade) {
+          const itemExistente = carrinho.find(
+            (item) => item.nome === nomeProduto
+          );
+          if (itemExistente) {
+            itemExistente.quantidade += quantidade;
+            if (itemExistente.quantidade > 100) {
+              itemExistente.quantidade = 100;
+              showMessage(
+                `Você não pode adicionar mais de 100 unidades de ${nomeProduto}.`
+              );
+            }
+            itemExistente.preco = preco * itemExistente.quantidade;
+          } else {
+            if (quantidade > 100) {
+              quantidade = 100;
+              showMessage(
+                `Você não pode adicionar mais de 100 unidades de ${nomeProduto}.`
+              );
+            }
+            carrinho.push({
+              nome: nomeProduto,
+              preco: preco * quantidade,
+              imagem: imagem,
+              quantidade: quantidade,
+            });
+          }
+          atualizarCarrinho();
+        }
+
+        function atualizarCarrinho() {
+          const itensCarrinho = document.getElementById("itensCarrinho");
+          const totalCarrinho = document.getElementById("totalCarrinho");
+
+          itensCarrinho.innerHTML = "";
+          carrinho.forEach((item) => {
+            const itemElemento = document.createElement("div");
+            itemElemento.className = "cart-item";
+            itemElemento.innerHTML = `
+          <img src="${item.imagem}" alt="${
+              item.nome
+            }" class="cart-item-image" />
+          <h3>${item.nome}</h3>
+          <p class="total-price">R$ ${item.preco
+            .toFixed(2)
+            .replace(".", ",")}</p>
+          <div class="quantity-display">Qtd: ${item.quantidade}</div>
+          <button class="remove-button">Excluir</button>
+        `;
+            itemElemento
+              .querySelector(".remove-button")
+              .addEventListener("click", function () {
+                removerDoCarrinho(item.nome);
+              });
+            itensCarrinho.appendChild(itemElemento);
+          });
+
+          total = carrinho.reduce((soma, item) => soma + item.preco, 0);
+          totalCarrinho.textContent = total.toFixed(2).replace(".", ",");
+
+          // Salva o carrinho no localStorage
+          localStorage.setItem("carrinho", JSON.stringify(carrinho));
+        }
+
+        function removerDoCarrinho(nomeProduto) {
+          carrinho = carrinho.filter((item) => item.nome !== nomeProduto);
+          atualizarCarrinho();
+        }
+
+        function irParaPagamento() {
+          if (carrinho.length === 0) {
+            showMessage(
+              "Seu carrinho está vazio! Adicione itens antes de prosseguir.",
+              true
+            );
+            return;
+          }
+
+          // Armazenar o total no localStorage para ser acessado na página de pagamento
+          localStorage.setItem(
+            "totalCompra",
+            total.toFixed(2).replace(".", ",")
+          );
+
+          // Redirecionar para a tela de pagamento
+          window.location.href = "CarrinhoFinaliza.html";
+        }
+
+        // Função para exibir a mensagem
+        function showMessage(message, isCartEmpty = false) {
+          const alertBox = document.createElement("div");
+          alertBox.className = "alert-message";
+          alertBox.innerText = message;
+          if (isCartEmpty) {
+            alertBox.classList.add("cart-empty-message");
+          }
+          document.body.appendChild(alertBox);
+          setTimeout(() => alertBox.remove(), 3000);
+        }
+
+        // Exibe a mensagem com o nome da fruta ao clicar no botão "Comprar"
+        document.querySelectorAll(".buy-button").forEach((button) => {
+          button.addEventListener("click", function () {
+            // Obtém o nome da fruta do elemento <h2> no mesmo card
+            const fruitName = this.parentElement
+              .querySelector("h2")
+              .textContent.split(" ")[0];
+            const quantityInput =
+              this.parentElement.querySelector(".quantity-input");
+            let quantity = parseInt(quantityInput.value) || 0;
+            const unitPrice = parseFloat(
+              this.parentElement.querySelector(".total-price").dataset.unitPrice
+            );
+            const imageSrc = this.parentElement.querySelector("img").src;
+
+            if (quantity < 1) {
+              showMessage("Você deve adicionar pelo menos um produto.");
+              return;
+            }
+
+            if (quantity > 100) {
+              quantity = 100;
+              quantityInput.value = 100;
+              showMessage(
+                `Você não pode adicionar mais de 100 unidades de ${fruitName}.`
+              );
+            }
+
+            showMessage(`${fruitName} foi adicionado ao carrinho!`);
+
+            adicionarAoCarrinho(fruitName, unitPrice, imageSrc, quantity);
+          });
+        });
+
+        // Configuração do modal do carrinho
+        const cartButton = document.getElementById("cart-button");
+        const cartModal = document.getElementById("cart-modal");
+        const closeModal = document.getElementById("close-modal");
+
+        // Função para abrir e fechar o modal
+        cartButton.addEventListener("click", function () {
+          if (cartModal.style.display === "block") {
+            cartModal.style.display = "none"; // Oculta o modal
+            document.body.classList.remove("modal-open");
+          } else {
+            cartModal.style.display = "block"; // Exibe o modal
+            document.body.classList.add("modal-open"); // Evita rolagem no fundo
+          }
+        });
+
+        // Função para fechar o modal
+        closeModal.addEventListener("click", function () {
+          cartModal.style.display = "none"; // Oculta o modal
+          document.body.classList.remove("modal-open");
+        });
+
+        // Fecha o modal ao clicar fora dele
+        window.addEventListener("click", function (event) {
+          if (event.target === cartModal) {
+            cartModal.style.display = "none";
+            document.body.classList.remove("modal-open");
+          }
+        });
+
+        // Atualiza o preço total nos cards
+        document.querySelectorAll(".card").forEach((card) => {
+          const decrementButton = card.querySelector(".decrement");
+          const incrementButton = card.querySelector(".increment");
+          const quantityInput = card.querySelector(".quantity-input");
+          const priceElement = card.querySelector("p");
+          const totalPriceElement = card.querySelector(".total-price");
+
+          const unitPrice = parseFloat(priceElement.dataset.unitPrice);
+
+          const updateTotalPrice = () => {
+            let quantity = parseInt(quantityInput.value) || 0;
+            if (quantity > 100) {
+              quantity = 100;
+              quantityInput.value = 100;
+              showMessage(`Você não pode adicionar mais de 100 unidades.`);
+            }
+            const total = (unitPrice * quantity).toFixed(2).replace(".", ",");
+            totalPriceElement.textContent = `R$ ${total}`;
+          };
+
+          decrementButton.addEventListener("click", () => {
+            let quantity = parseInt(quantityInput.value) || 0;
+            if (quantity > 1) {
+              quantityInput.value = --quantity;
+              updateTotalPrice();
+            }
+          });
+
+          incrementButton.addEventListener("click", () => {
+            let quantity = parseInt(quantityInput.value) || 0;
+            if (quantity < 100) {
+              quantityInput.value = ++quantity;
+              updateTotalPrice();
+            }
+          });
+
+          quantityInput.addEventListener("input", () => {
+            let quantity = parseInt(quantityInput.value) || 0;
+            if (quantity < 1) {
+              quantity = 0;
+            } else if (quantity > 100) {
+              quantity = 100;
+              quantityInput.value = 100;
+              showMessage(`Você não pode adicionar mais de 100 unidades.`);
+            }
+            updateTotalPrice();
+          });
+        });
+
+        // Atualiza o carrinho ao carregar a página
+        atualizarCarrinho();
+
+        // Adiciona evento ao botão de finalizar compra
+        document
+          .getElementById("next-page-button")
+          .addEventListener("click", irParaPagamento);
+      });
+    </script>
+
+
+<footer>
+    <p>&copy; 2024 INO FARM. Todos os direitos reservados.</p>
+    <div class="icones">
+        <img src="@Url.Content("~/img/faceboo.png")" alt="Facebook" />
+        <img src="@Url.Content("~/img/twiter.png")" alt="Twitter" />
+        <img src="@Url.Content("~/img/insta2.jfif")" alt="Instagram" />
+    </div>
+</footer>

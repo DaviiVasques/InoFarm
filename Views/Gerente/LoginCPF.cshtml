@@ -1,0 +1,68 @@
+@{
+    ViewData["Title"] = "Login - CPF";
+    Layout = "~/Views/Shared/_LayoutGerente.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CPF</title>
+    <link rel="stylesheet" href="/css/LoginGerenteCPF.css"> <!-- Arquivo CSS externo -->
+</head>
+<body>
+    <div id="header-container" style="width: 100%"></div>
+    <script>
+        fetch("./HeaderComum").then(res => res.text()).then(data => { document.getElementById('header-container').innerHTML = data });
+    </script>
+
+    <div class="agrupamento">
+        <section class="informacoes">
+            <h2 class="informacoes__texto_geral">
+                Vamos conferir seu acesso
+                <br>
+                <span class="informacoes__texto">Para continuar, digite seu CPF</span>
+            </h2>
+
+            <!-- Formulário de CPF -->
+            <form method="post" asp-action="LoginCPF" asp-controller="Gerente">
+                <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" aria-label="Campo para inserir o CPF" required>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+
+            <!-- Mensagem de Erro/Sucesso -->
+            @if (ViewBag.Mensagem != null)
+            {
+                <p id="mensagem" style="color: @(ViewBag.Erro ? "red" : "green");">
+                    @ViewBag.Mensagem
+                </p>
+            }
+        </section>
+    </div>
+
+    <script>
+        // Formatação automática de CPF
+        document.getElementById('cpf').addEventListener('input', function () {
+            let cpfNumeros = this.value.replace(/\D/g, "").slice(0, 11);
+
+            this.value = cpfNumeros
+                .replace(/(\d{3})(\d)/, '$1.$2')
+                .replace(/(\d{3})(\d)/, '$1.$2')
+                .replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+        });
+    </script>
+
+    <footer>
+        <p>&copy; 2024 INO FARM. Todos os direitos reservados.</p>
+        <div class="icones">
+            <img src="img/faceboo.png" alt="Facebook">
+            <img src="img/twiter.png" alt="Twitter">
+            <img src="img/insta2.jfif" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>

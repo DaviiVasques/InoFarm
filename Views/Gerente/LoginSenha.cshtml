@@ -1,0 +1,62 @@
+@{
+    Layout = "~/Views/Shared/_LayoutGerente.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Senha</title>
+    <link rel="stylesheet" href="/css/LoginSenha.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="agrupamento">
+        <section class="informacoes">
+            <h2 class="informacoes__texto_geral">
+                Bem Vindo(a) 
+                <br>
+                <span class="informacoes__texto">Por favor, digite sua senha</span>
+            </h2>
+
+            <!-- Formulário de senha -->
+            <form method="post" asp-action="LoginSenha" asp-controller="Gerente">
+                <div class="form-group relative">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                    <i class="fas fa-eye toggle-password"></i>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+                <a asp-action="LoginCPF" asp-controller="Gerente" class="back-link">Voltar para login</a>
+            </form>
+
+            <!-- Mensagem de Erro/Sucesso -->
+            @if (ViewBag.Mensagem != null)
+            {
+                <p id="mensagem" style="color: @(ViewBag.Erro ? "red" : "green");">
+                    @ViewBag.Mensagem
+                </p>
+            }
+        </section>
+    </div>
+
+    <script>
+        // Função para alternar a visibilidade da senha
+        document.querySelectorAll('.toggle-password').forEach(item => {
+            item.addEventListener('click', function () {
+                const input = this.previousElementSibling;
+                if (input.type === 'password') {
+                    input.type = 'text';
+                    this.classList.toggle('fa-eye');
+                    this.classList.toggle('fa-eye-slash');
+                } else {
+                    input.type = 'password';
+                    this.classList.toggle('fa-eye-slash');
+                    this.classList.toggle('fa-eye');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

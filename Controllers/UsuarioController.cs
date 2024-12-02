@@ -3,6 +3,7 @@ using InoFarm.Classes;
 using InoFarm.Data;
 using InoFarm.Models;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace InoFarm.Controllers
 {
@@ -17,120 +18,72 @@ namespace InoFarm.Controllers
             _logger = logger;
         }
 
-        // Tela de Dados Pessoais
-        public IActionResult DadosPessoais()
+        // ---------------- CADASTRO ---------------- //
+
+        public IActionResult Cadastro()
         {
             return View(new UsuarioModel());
         }
 
         [HttpPost]
-        public IActionResult DadosPessoais(UsuarioModel usuario)
+        public IActionResult Cadastro(UsuarioModel usuario)
         {
-            // Armazene os dados temporariamente na sessão, independentemente da validação
-            HttpContext.Session.SetObjectAsJson("DadosPessoais", usuario);
-
-            return RedirectToAction("DadosAcesso");
+            HttpContext.Session.SetObjectAsJson("Cadastro", usuario);
+            return RedirectToAction("CadastroSegundaParte");
         }
 
-        // Tela de Dados de Acesso
-        public IActionResult DadosAcesso()
+        public IActionResult CadastroSegundaParte()
         {
-            var dadosPessoais = HttpContext.Session.GetObjectFromJson<UsuarioModel>(
-                "DadosPessoais"
-            );
-            return View(dadosPessoais);
+            var cadastro = HttpContext.Session.GetObjectFromJson<UsuarioModel>("Cadastro");
+            return View(cadastro);
         }
 
         [HttpPost]
-        public IActionResult DadosAcesso(UsuarioModel usuario, string ConfirmEmail, string ConfirmSenha)
+        public IActionResult CadastroSegundaParte(UsuarioModel usuario, string ConfirmEmail, string ConfirmSenha)
         {
-            Console.WriteLine("Iniciando método DadosAcesso (POST)");
-
-            // Exibe os erros do ModelState logo no início do método
-            if (!ModelState.IsValid)
+            var cadastro = HttpContext.Session.GetObjectFromJson<UsuarioModel>("Cadastro");
+            if (cadastro == null)
             {
-                Console.WriteLine("ModelState inválido ao iniciar o método. Erros:");
-                foreach (var modelStateEntry in ModelState)
-                {
-                    foreach (var error in modelStateEntry.Value.Errors)
-                    {
-                        Console.WriteLine($"Erro no campo {modelStateEntry.Key}: {error.ErrorMessage}");
-                    }
-                }
-            }
-
-            // Recupera os dados pessoais da sessão
-            var dadosPessoais = HttpContext.Session.GetObjectFromJson<UsuarioModel>("DadosPessoais");
-            if (dadosPessoais == null)
-            {
-                Console.WriteLine("Erro: Dados pessoais não encontrados na sessão");
                 ModelState.AddModelError(string.Empty, "Erro ao recuperar dados pessoais.");
-                return View(usuario); // Reenviar o formulário com erro
+                return View(usuario);
             }
 
-            if (ModelState.IsValid)
+            if (usuario.Email != ConfirmEmail)
+                ModelState.AddModelError("Email", "Os e-mails não correspondem.");
+
+            if (usuario.Senha != ConfirmSenha)
+                ModelState.AddModelError("Senha", "As senhas não correspondem.");
+
+            if (_context.Usuarios.Any(u => u.Email == usuario.Email))
+                ModelState.AddModelError("Email", "O email já está em uso.");
+
+            if (!ModelState.IsValid)
+                return View(usuario);
+
+            usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+            var usuarioCompleto = new UsuarioModel
             {
-                Console.WriteLine("ModelState válido");
+                Nome = cadastro.Nome,
+                Sobrenome = cadastro.Sobrenome,
+                DataNascimento = cadastro.DataNascimento.ToUniversalTime(),
+                CPF = cadastro.CPF,
+                Telefone = cadastro.Telefone,
+                Email = usuario.Email,
+                Senha = usuario.Senha
+            };
 
-                if (usuario.Email != ConfirmEmail)
-                {
-                    Console.WriteLine("Erro: E-mails não correspondem");
-                    ModelState.AddModelError("Email", "Os e-mails não correspondem.");
-                }
-
-                if (usuario.Senha != ConfirmSenha)
-                {
-                    Console.WriteLine("Erro: Senhas não correspondem");
-                    ModelState.AddModelError("Senha", "As senhas não correspondem.");
-                }
-
-                if (!ModelState.IsValid)
-                {
-                    Console.WriteLine("ModelState inválido após validação de e-mail e senha");
-                    return View(usuario); // Reenviar o formulário com erros
-                }
-
-                Console.WriteLine("ModelState permanece válido após validação de e-mail e senha");
-
-                // Combine os dados pessoais com os dados de acesso
-                var usuarioCompleto = new UsuarioModel
-                {
-                    Nome = dadosPessoais.Nome,
-                    Sobrenome = dadosPessoais.Sobrenome,
-                    DataNascimento = dadosPessoais.DataNascimento.ToUniversalTime(), // Converter para UTC
-                    CPF = dadosPessoais.CPF,
-                    Telefone = dadosPessoais.Telefone,
-                    Email = usuario.Email,
-                    Senha = usuario.Senha,
-                };
-
-                // Tente salvar no banco de dados
-                try
-                {
-                    Console.WriteLine("Tentando adicionar usuário ao banco de dados");
-                    _context.Usuarios.Add(usuarioCompleto);
-                    _context.SaveChanges();
-                    Console.WriteLine("Usuário salvo com sucesso no banco de dados");
-                    return RedirectToAction("Login");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Erro ao salvar no banco de dados: {ex.Message} {(ex.InnerException?.Message ?? string.Empty)}");
-                    // Registrar o erro no log e adicionar detalhes ao ModelState
-                    _logger.LogError(ex, "Erro ao salvar usuário no banco de dados");
-                    ModelState.AddModelError(
-                        string.Empty,
-                        $"Erro ao salvar no banco de dados: {ex.Message} {(ex.InnerException?.Message ?? string.Empty)}"
-                    );
-                }
-            }
-            else
+            try
             {
-                Console.WriteLine("ModelState inválido ao iniciar o método");
+                _context.Usuarios.Add(usuarioCompleto);
+                _context.SaveChanges();
+                return RedirectToAction("Login");
             }
-
-            Console.WriteLine("Retornando view com erros no ModelState");
-            return View(usuario); // Reenviar o formulário com erros
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao salvar usuário no banco de dados.");
+                ModelState.AddModelError(string.Empty, "Erro ao salvar os dados. Tente novamente.");
+                return View(usuario);
+            }
         }
 
         [HttpGet]
@@ -142,34 +95,240 @@ namespace InoFarm.Controllers
         [HttpPost]
         public IActionResult Login(string email, string senha)
         {
-            // Verifica se o ModelState é válido
             if (!ModelState.IsValid)
             {
                 return View();
             }
 
-            // Busca o usuário no banco de dados pelo email
             var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == email);
-
-            // Verifica se o usuário existe e a senha está correta
-            if (usuario == null || usuario.Senha != senha)
+            if (usuario == null || !BCrypt.Net.BCrypt.Verify(senha, usuario.Senha))
             {
                 ModelState.AddModelError(string.Empty, "E-mail ou senha incorretos.");
                 return View();
             }
 
-            // Armazena o ID do usuário na sessão para autenticação
             HttpContext.Session.SetInt32("UserId", usuario.UsuarioId);
-
-            // Redireciona para uma página inicial ou dashboard após o login bem-sucedido
             return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Logout()
         {
-            // Remove o ID do usuário da sessão para deslogar
             HttpContext.Session.Remove("UserId");
             return RedirectToAction("Login");
         }
+
+        // ---------------- CARRINHO ---------------- //
+
+        [HttpGet]
+        public IActionResult VisualizarCarrinho()
+        {
+            int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+
+            if (userId == 0)
+                return RedirectToAction("Login");
+
+            var carrinho = _context.Carrinhos
+                .Where(c => c.IdUsuario == userId)
+                .Select(c => new
+                {
+                    c.CarrinhoId,
+                    c.DataCriacao,
+                    Itens = c.Itens.Select(i => new
+                    {
+                        i.carrinhoItemId,
+                        i.Fruta.Nome,
+                        i.Fruta.Preco,
+                        i.Quantidade,
+                        Total = i.Preco * i.Quantidade
+                    })
+                })
+                .FirstOrDefault();
+
+            if (carrinho == null)
+                return View(new List<CarrinhoItemModel>());
+
+            return View(carrinho.Itens);
+        }
+
+        [HttpPost]
+        public IActionResult AdicionarAoCarrinho(int frutaId, int quantidade)
+        {
+            int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+
+            if (userId == 0)
+                return RedirectToAction("Login");
+
+            var fruta = _context.Frutas.FirstOrDefault(f => f.FrutaId == frutaId);
+            if (fruta == null)
+            {
+                ModelState.AddModelError("", "Fruta não encontrada.");
+                return RedirectToAction("VisualizarCarrinho");
+            }
+
+            var carrinho = _context.Carrinhos.FirstOrDefault(c => c.IdUsuario == userId);
+            if (carrinho == null)
+            {
+                carrinho = new CarrinhoModel
+                {
+                    IdUsuario = userId,
+                    DataCriacao = DateTime.Now,
+                    Itens = new List<CarrinhoItemModel>()
+                };
+                _context.Carrinhos.Add(carrinho);
+                _context.SaveChanges();
+            }
+
+            var item = carrinho.Itens.FirstOrDefault(i => i.IdFruta == frutaId);
+            if (item == null)
+            {
+                item = new CarrinhoItemModel
+                {
+                    IdCarrinho = carrinho.CarrinhoId,
+                    IdFruta = frutaId,
+                    Quantidade = quantidade,
+                    Preco = fruta.Preco
+                };
+                carrinho.Itens.Add(item);
+            }
+            else
+            {
+                item.Quantidade += quantidade;
+            }
+
+            _context.SaveChanges();
+            return RedirectToAction("VisualizarCarrinho");
+        }
+
+        [HttpPost]
+        public IActionResult EditarItemCarrinho(int itemId, int quantidade)
+        {
+            var item = _context.CarrinhoItens.FirstOrDefault(i => i.carrinhoItemId == itemId);
+            if (item == null)
+            {
+                ModelState.AddModelError("", "Item não encontrado no carrinho.");
+                return RedirectToAction("VisualizarCarrinho");
+            }
+
+            if (quantidade <= 0)
+            {
+                _context.CarrinhoItens.Remove(item);
+            }
+            else
+            {
+                item.Quantidade = quantidade;
+            }
+
+            _context.SaveChanges();
+            return RedirectToAction("VisualizarCarrinho");
+        }
+
+        [HttpPost]
+        public IActionResult RemoverItemCarrinho(int itemId)
+        {
+            var item = _context.CarrinhoItens.FirstOrDefault(i => i.carrinhoItemId == itemId);
+            if (item == null)
+            {
+                ModelState.AddModelError("", "Item não encontrado no carrinho.");
+                return RedirectToAction("VisualizarCarrinho");
+            }
+
+            _context.CarrinhoItens.Remove(item);
+            _context.SaveChanges();
+
+            return RedirectToAction("VisualizarCarrinho");
+        }
+        [HttpGet]
+public IActionResult CarrinhoFinaliza()
+{
+    int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+
+    if (userId == 0)
+        return RedirectToAction("Login");
+
+    var carrinho = _context.Carrinhos
+        .Where(c => c.IdUsuario == userId)
+        .Select(c => new
+        {
+            c.CarrinhoId,
+            c.DataCriacao,
+            Total = c.Itens.Sum(i => i.Preco * i.Quantidade),
+            Itens = c.Itens.Select(i => new
+            {
+                i.carrinhoItemId,
+                i.Fruta.Nome,
+                i.Fruta.Preco,
+                i.Quantidade,
+                TotalItem = i.Preco * i.Quantidade
+            }).ToList()
+        })
+        .FirstOrDefault();
+
+    if (carrinho == null || !carrinho.Itens.Any())
+    {
+        TempData["Mensagem"] = "Seu carrinho está vazio!";
+        return RedirectToAction("VisualizarCarrinho");
+    }
+
+    return View(carrinho);
+}
+
+[HttpPost]
+public IActionResult ProcessarPagamento(string formaPagamento)
+{
+    int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+
+    if (userId == 0)
+        return RedirectToAction("Login");
+
+    // Obter o carrinho atual do usuário
+    var carrinho = _context.Carrinhos
+        .Include(c => c.Itens)
+        .ThenInclude(i => i.Fruta)
+        .FirstOrDefault(c => c.IdUsuario == userId && !c.Finalizado);
+
+    if (carrinho == null || !carrinho.Itens.Any())
+    {
+        ModelState.AddModelError("", "Carrinho vazio ou não encontrado.");
+        return RedirectToAction("VisualizarCarrinho");
+    }
+
+    // Finalizar o carrinho
+    carrinho.Finalizado = true;
+    carrinho.DataFinalização = DateTime.Now;
+    carrinho.FormaPagamento = formaPagamento;
+
+    // Atualizar o estoque das frutas
+    foreach (var item in carrinho.Itens)
+    {
+        var fruta = _context.Frutas.FirstOrDefault(f => f.FrutaId == item.IdFruta);
+        if (fruta != null)
+        {
+            if (fruta.Quantidade >= item.Quantidade)
+            {
+                fruta.Quantidade -= item.Quantidade;
+            }
+            else
+            {
+                ModelState.AddModelError("", $"Estoque insuficiente para {fruta.Nome}.");
+                return RedirectToAction("VisualizarCarrinho");
+            }
+        }
+    }
+
+    try
+    {
+        _context.SaveChanges();
+        TempData["Sucesso"] = "Compra realizada com sucesso!";
+        return RedirectToAction("Index", "Home");
+    }
+    catch (Exception ex)
+    {
+        ModelState.AddModelError("", "Erro ao processar pagamento. Tente novamente.");
+        return RedirectToAction("VisualizarCarrinho");
+    }
+}
+
+
+
     }
 }
